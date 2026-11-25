@@ -1,0 +1,14 @@
+{
+  "start_utc": "2011-06-05T00:00:00Z", "end_utc": "2011-06-08T00:00:00Z",
+  "step_seconds": 10, "grid_interval_seconds": 3600, "particle_output_interval_seconds": 86400,
+  "release": {
+    "particles": 100000, "seed": 20110605, "total_mass_kg": 1000000000,
+    "longitude_deg": -72.117, "latitude_deg": -40.59, "pressure_altitude_km": 10,
+    "horizontal_fwhm_km": 30, "vertical_fwhm_km": 1,
+    "earth_radius_km": 6367.421, "surface_reference_hpa": 1013.25, "scale_height_km": 7
+  },
+  "output_grid": {
+    "west_deg": -90, "east_deg": 60, "south_deg": -65, "north_deg": -15,
+    "longitude_cells": 300, "latitude_cells": 100, "bottom_km": -5, "top_km": 85
+  }
+}
